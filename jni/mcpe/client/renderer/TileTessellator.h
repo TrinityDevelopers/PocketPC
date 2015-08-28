@@ -51,5 +51,5 @@ public:
 	}
 	
 	/*render functions*/
-	//bool tessellatewhateverInWorld(Tile*, TilePos const&);
+	bool tessellateBeaconInWorld(Tile*, TilePos const&);
 };
