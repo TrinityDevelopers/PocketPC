@@ -22,4 +22,5 @@ bool TileTessellator::tessellateBeaconInWorld(Tile* tile, TilePos const& pos){
 		tessellateBlockInWorld(tile, pos);
 	}
 	useForcedUV = false;
+	return true;
 }
